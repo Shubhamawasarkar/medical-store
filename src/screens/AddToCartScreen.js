@@ -50,7 +50,7 @@ const AddToCartScreen = (props) => {
               <div class="row">
                 <div class="col-md-6">
                 <img
-                    src={`${process.env.REACT_APP_URL}/${product.image}`}
+                    src={`https://reactdeploy-heroku.herokuapp.com/${product.image}`}
                     
                     alt="..."
                     style={{ marginLeft:100,cursor:"zoom-in",width:300,height:300}}

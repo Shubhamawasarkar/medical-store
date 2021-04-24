@@ -31,7 +31,7 @@ const ProductsScreen = (props) => {
               <div class="col">
                 <div class="card" style={{ padding: 1 }}>
                   <img
-                    src={`${process.env.REACT_APP_URL}/${product.image}`}
+                    src={`https://reactdeploy-heroku.herokuapp.com/${product.image}`}
                     class="card-img-top"
                     alt="..."
                     style={{ height: 150 }}

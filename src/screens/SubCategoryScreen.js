@@ -31,7 +31,7 @@ const SubCategoryScreen = (props) => {
               <div class="col">
                 <div class="card" style={{ padding: 1 ,cursor: "pointer"}} onClick={() => onSelectSubCategory(subcat.id)}>
                   <img
-                    src={`${process.env.REACT_APP_URL}/${subcat.image}`}
+                    src={`https://reactdeploy-heroku.herokuapp.com/${subcat.image}`}
                     class="card-img-top"
                     alt="..."
                     style={{ height: 150 }}
